@@ -1,0 +1,63 @@
+{
+
+    "partyOne" : {
+
+        "exists" : true,
+        
+        "name" : "Party One",
+        "ruling" : true,
+        "seatsHeld" : 0
+
+    },
+    "partyTwo" : {
+
+        "exists" : true,
+
+        "name" : "Party Two",
+        "ruling" : false,
+        "seatsHeld" : 0
+
+    },
+    "partyThree" : {
+
+        "exists" : false,
+        "seatsHeld" : 0
+
+    },
+    "partyFour" : {
+
+
+
+    },
+    "partyFive" : {
+
+
+
+    },
+    "partySix" : {
+
+
+
+    },
+    "partySeven" : {
+
+
+
+    },
+    "partyEight" : {
+
+
+
+    },
+    "partyNine" : {
+
+
+
+    },
+    "partyTen" : {
+
+
+
+    }
+
+}
