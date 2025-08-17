@@ -1,16 +1,26 @@
-create database users;
+CREATE DATABASE users;
 
-create table userInfo (
+CREATE TABLE userInfo ( --Account information 
 
-    uid int
-    username varchar(255)
-    email varchar(255)
-    pass varchar(255)
-    totalSeats varchar(255)
+    userid int
+    username TEXT UNIQUE NOT NULL,
+    email TEXT UNIQUE NOT NULL,
+    pass TEXT NOT NULL
+    totalSeats int DEFAULT 0
+    perms int DEFAULT 1
+    User-Agent TEXT NOT NULL
 
 );
 
-create table parties (
+CREATE TABLE nation (
+
+    userid int
+    nation TEXT NOT NULL
+    tags TEXT NOT NULL --MUST BE IN JSON FORMAT FOR PYTHON COMPATABILITY
+
+);
+
+CREATE TABLE parties ( --Fucked
 
     uid id
     party1 varchar(255)
@@ -30,10 +40,3 @@ create table parties (
     seats5 int
 
 );
-
-create table nation (
-
-    nation varchar(255)
-    tags varchar(255)
-
-)
