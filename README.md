@@ -2,7 +2,8 @@
 
 ## Disclaimers
 1. User account information is not stored properly. <br>
-Once it is, account creation will be unlocked.
+Once it is, account creation will be unlocked. <br>
+A placeholder database system will be used instead.
 
 2. This website is in extremely early development, and as such, <br>
 some features mentioned in this file may not be implemented yet. <br>
