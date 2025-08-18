@@ -1,5 +1,3 @@
-# What is this for?
+# Unofficial Nationstates Democracy Simulator
 
-This is incomplete so don't expect anything
-This is all unofficial.
-This simulates elections for your Nationstates country.
+User account information is not stored properly. Once it is, account creation will be unlocked.
